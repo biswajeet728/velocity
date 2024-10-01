@@ -54,7 +54,7 @@ const Categories = ({
               <Image
                 source={
                   imageMap[item.icon.split("/").pop() as keyof typeof imageMap]
-                } // Use the image map
+                }
                 style={{
                   width: "100%",
                   height: "100%",

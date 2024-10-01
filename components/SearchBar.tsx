@@ -1,16 +1,13 @@
-import { View, Text, TextInput, TouchableNativeFeedback } from "react-native";
+import { View, TextInput } from "react-native";
 import React from "react";
 import { AntDesign } from "@expo/vector-icons";
-import { UsersListProps } from "./UsersList";
 
 const SearchBar = ({
   value,
   setValue,
-  onSearch,
 }: {
   value: string;
   setValue: (text: string) => void;
-  onSearch: (string: string) => void;
 }) => {
   return (
     <View

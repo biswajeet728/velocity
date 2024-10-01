@@ -29,8 +29,6 @@ const UsersList = ({ data }: UsersListProps) => {
       data={data}
       keyExtractor={(item) => item.id.toString()}
       contentContainerStyle={{
-        // flexDirection: "row",
-        // flexWrap: "wrap",
         flexDirection: "column",
         justifyContent: "space-between",
         alignSelf: "flex-start",
